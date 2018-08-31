@@ -4,7 +4,7 @@
        
  
        
-        function insertionSort($array) {
+        function insertionSort($array) {  // To effect the orginal array pass it by reference &$array
     
     for ($i = 1; $i < count($array); $i++)
     {
@@ -14,7 +14,7 @@
         while ($j >= 0 && $array[$j] > $key)
         {
             $array[$j + 1] = $array[$j];
-            $j = $j - 1;
+            $j--;
         }
          
         $array[$j + 1] = $key;
