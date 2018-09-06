@@ -25,7 +25,7 @@ class Rextester
     }
     
     
-    // another method by using two for loop
+    // another method
     /*
     public static int[] insertionSort (int[] array){
         
